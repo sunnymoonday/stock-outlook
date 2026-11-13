@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T22:47+09:00",
+ "updatedAt": "2026-11-14T00:07+09:00",
  "basis": "증권사 컨센서스 기준 향후 12개월 EPS·영업이익 증가율과 최근 추정치 상향을 우선해 고르고, ETF는 해당 분야 이익 개선 기대가 큰 대형 ETF를 골랐습니다.",
  "sectors": [
   {
@@ -72,8 +72,8 @@
       "ticker": "MU",
       "metricLabel": "FY27E(8월결산) EPS 증가율",
       "metricValue": "+134%",
-      "upside": "+96%",
-      "thesis": "HBM·메모리 가격 상승으로 FY27 EPS 추정치가 3개월간 약 18% 상향, 컨센서스 Strong Buy",
+      "upside": "+104%",
+      "thesis": "HBM·메모리 가격 상승으로 FY27 EPS가 두 배 이상 늘 전망, 49명 중 45명이 매수 이상 의견",
       "source": "https://stockanalysis.com/stocks/mu/forecast/"
      },
      {
@@ -81,8 +81,8 @@
       "ticker": "AMD",
       "metricLabel": "2027E EPS 증가율",
       "metricValue": "+119%",
-      "upside": "+12%",
-      "thesis": "AI 데이터센터 GPU 확대로 2027년 EPS가 2026년 대비 두 배 이상 늘 것으로 전망",
+      "upside": "+23%",
+      "thesis": "AI 데이터센터 GPU 확대로 2027년 EPS 두 배 이상 전망, 11월 BofA·오펜하이머 등 목표가 상향",
       "source": "https://stockanalysis.com/stocks/amd/forecast/"
      },
      {
@@ -90,8 +90,8 @@
       "ticker": "NVDA",
       "metricLabel": "FY28E(1월결산) EPS 증가율",
       "metricValue": "+70%",
-      "upside": "+72%",
-      "thesis": "FY28 EPS 추정치가 3개월간 약 25% 상향됐고 최근 주가 하락으로 목표가 괴리 확대",
+      "upside": "+76%",
+      "thesis": "FY28 EPS +70% 전망은 유지되나 11/13 KeyBanc·Bernstein 하향 등 목표가 하향이 잇따름",
       "source": "https://stockanalysis.com/stocks/nvda/forecast/"
      }
     ],
@@ -108,8 +108,8 @@
      {
       "name": "iShares 반도체 ETF",
       "ticker": "SOXX",
-      "metricLabel": "상위 AMD·AVGO 2027E EPS",
-      "metricValue": "+119%·+66%",
+      "metricLabel": "상위 AMD·MU 내년 EPS",
+      "metricValue": "+119%·+134%",
       "upside": null,
       "thesis": "순자산 약 413억 달러, AMD·브로드컴·마이크론·엔비디아가 상위 4종목(약 33%)",
       "source": "https://stockanalysis.com/etf/soxx/holdings/"
@@ -196,8 +196,8 @@
       "ticker": "PLTR",
       "metricLabel": "2027E EPS 증가율",
       "metricValue": "+49%",
-      "upside": "+30%",
-      "thesis": "AI 플랫폼 수요로 2026년 EPS +127%에 이어 2027년에도 +49% 성장 전망",
+      "upside": "+32%",
+      "thesis": "AI 플랫폼 수요로 2026년 EPS +127%에 이어 2027년 +49% 전망, 골드만·바클레이즈 목표가 상향",
       "source": "https://stockanalysis.com/stocks/pltr/forecast/"
      },
      {
@@ -205,17 +205,17 @@
       "ticker": "ORCL",
       "metricLabel": "FY28E(5월결산) EPS 증가율",
       "metricValue": "+36%",
-      "upside": "+86%",
+      "upside": "+93%",
       "thesis": "클라우드 인프라 수주 기반 이익 가속 기대, 주가 급락으로 목표가 대비 괴리 커짐",
       "source": "https://stockanalysis.com/stocks/orcl/forecast/"
      },
      {
       "name": "크라우드스트라이크",
       "ticker": "CRWD",
-      "metricLabel": "차기 회계연도 EPS 증가율",
+      "metricLabel": "FY28E(1월결산) EPS 증가율",
       "metricValue": "+28%",
-      "upside": "+9%",
-      "thesis": "보안 플랫폼 확장으로 2년 연속 EPS 30% 안팎 성장 전망, 컨센서스 Buy",
+      "upside": "+11%",
+      "thesis": "보안 플랫폼 확장으로 2년 연속 EPS 30% 안팎 성장 전망, 도이체방크 매수 상향",
       "source": "https://stockanalysis.com/stocks/crwd/forecast/"
      }
     ],
@@ -321,7 +321,7 @@
       "metricLabel": "2027E EPS 증가율",
       "metricValue": "+43%",
       "upside": "+2%",
-      "thesis": "비만·당뇨 치료제 판매 확대로 2026년 +46%, 2027년 +43% EPS 성장 전망",
+      "thesis": "비만·당뇨 치료제 판매 확대로 2026년 +46%, 2027년 +43% EPS 성장 전망, 11월 목표가 상향 잇따름",
       "source": "https://stockanalysis.com/stocks/lly/forecast/"
      },
      {
@@ -429,11 +429,11 @@
      {
       "name": "TIGER 200 금융",
       "ticker": "139270",
-      "metricLabel": null,
-      "metricValue": null,
+      "metricLabel": "편입 상위 KB금융·신한지주·하나금융 비중",
+      "metricValue": "19.7%·14.9%·12.8%",
       "upside": null,
-      "thesis": "코스피200 금융 대형주에 분산 투자해 금융지주 실적 개선을 반영",
-      "source": null
+      "thesis": "KB·신한·하나·우리금융과 삼성생명 등 코스피200 금융 대형주의 이익·주주환원 확대를 반영",
+      "source": "https://www.funetf.co.kr/product/etf/view/KR7139270003"
      }
     ]
    },
@@ -444,8 +444,8 @@
       "ticker": "HOOD",
       "metricLabel": "2027E EPS 증가율",
       "metricValue": "+38%",
-      "upside": "+58%",
-      "thesis": "2027년 EPS +38% 성장 전망, 최근 주가 조정으로 목표가 대비 상승여력 커짐",
+      "upside": "+64%",
+      "thesis": "2027년 EPS +38% 성장 전망, 목표가 일부 하향에도 주가 조정으로 상승여력 커짐",
       "source": "https://stockanalysis.com/stocks/hood/forecast/"
      },
      {
@@ -453,7 +453,7 @@
       "ticker": "APO",
       "metricLabel": "2027E EPS 증가율",
       "metricValue": "+24%",
-      "upside": "+21%",
+      "upside": "+20%",
       "thesis": "사모신용·보험 자산 성장으로 2027년 EPS가 20%대 성장할 것으로 전망",
       "source": "https://stockanalysis.com/stocks/apo/forecast/"
      },
@@ -462,7 +462,7 @@
       "ticker": "SCHW",
       "metricLabel": "2027E EPS 증가율",
       "metricValue": "+21%",
-      "upside": "+27%",
+      "upside": "+28%",
       "thesis": "2026년 EPS +32%에 이어 2027년에도 +21% 성장 전망, 컨센서스 Buy",
       "source": "https://stockanalysis.com/stocks/schw/forecast/"
      }
@@ -553,11 +553,11 @@
      {
       "name": "PLUS K방산",
       "ticker": "449450",
-      "metricLabel": null,
-      "metricValue": null,
+      "metricLabel": "편입 1위 한화에어로스페이스 비중",
+      "metricValue": "23.5%",
       "upside": null,
-      "thesis": "국내 방산 대형주 중심 ETF로 4분기 수출 납품 집중에 따른 이익 회복을 반영",
-      "source": "https://dealsite.co.kr/articles/172011"
+      "thesis": "한화에어로·KAI·한화오션·현대로템 중심, 3Q 지연된 수출 납품이 4분기로 이연돼 이익 회복 기대",
+      "source": "https://www.funetf.co.kr/product/etf/view/KR7449450006"
      }
     ]
    },
@@ -568,7 +568,7 @@
       "ticker": "GEV",
       "metricLabel": "2027E EPS 증가율",
       "metricValue": "+66%",
-      "upside": "+44%",
+      "upside": "+48%",
       "thesis": "AI 데이터센터 전력 수요로 가스터빈·전력망 수주가 늘며 2027년 이익 급증 전망",
       "source": "https://stockanalysis.com/stocks/gev/forecast/"
      },
@@ -577,7 +577,7 @@
       "ticker": "HWM",
       "metricLabel": "2027E EPS 증가율",
       "metricValue": "+21%",
-      "upside": "+33%",
+      "upside": "+34%",
       "thesis": "항공기 엔진 부품 수요 호조로 2026년 EPS +46%, 2027년 +21% 성장 전망",
       "source": "https://stockanalysis.com/stocks/hwm/forecast/"
      },
@@ -586,7 +586,7 @@
       "ticker": "ETN",
       "metricLabel": "2027E EPS 증가율",
       "metricValue": "+19%",
-      "upside": "+31%",
+      "upside": "+34%",
       "thesis": "데이터센터 전력장비 수요로 2027년 EPS 증가율이 올해(+14%)보다 높아질 전망",
       "source": "https://stockanalysis.com/stocks/etn/forecast/"
      }
@@ -677,10 +677,10 @@
      {
       "name": "TIGER 2차전지테마",
       "ticker": "305540",
-      "metricLabel": null,
-      "metricValue": null,
+      "metricLabel": "편입 LG에너지솔루션·삼성SDI 합산 비중",
+      "metricValue": "31.2%",
       "upside": null,
-      "thesis": "셀·소재·장비 전반의 2차전지 밸류체인에 분산 투자하는 ETF",
+      "thesis": "POSCO홀딩스·LG엔솔·삼성SDI 등 밸류체인 분산, ESS 주도 배터리 이익 회복을 반영",
       "source": "https://www.funetf.co.kr/product/etf/view/KR7305540007"
      }
     ]
@@ -692,7 +692,7 @@
       "ticker": "BE",
       "metricLabel": "2027E EPS 증가율",
       "metricValue": "+63%",
-      "upside": "+41%",
+      "upside": "+50%",
       "thesis": "데이터센터용 연료전지 수요로 2026년 EPS 급증에 이어 2027년에도 +63% 전망",
       "source": "https://stockanalysis.com/stocks/be/forecast/"
      },
@@ -701,7 +701,7 @@
       "ticker": "FCX",
       "metricLabel": "2027E EPS 증가율",
       "metricValue": "+34%",
-      "upside": "+29%",
+      "upside": "+31%",
       "thesis": "구리 사업 이익 확대로 2026년 EPS +78%, 2027년에도 +34% 성장 전망",
       "source": "https://stockanalysis.com/stocks/fcx/forecast/"
      },
@@ -710,7 +710,7 @@
       "ticker": "FSLR",
       "metricLabel": "2027E EPS 증가율",
       "metricValue": "+32%",
-      "upside": "+47%",
+      "upside": "+50%",
       "thesis": "2027년 EPS 증가율(+32%)이 올해(+23%)보다 가속될 전망, 컨센서스 Buy",
       "source": "https://stockanalysis.com/stocks/fslr/forecast/"
      }

@@ -1,21 +1,21 @@
 {
   "semis": {
     "stocks": [
-      {"name": "마이크론", "ticker": "MU", "metricLabel": "FY27E(8월결산) EPS 증가율", "metricValue": "+134%", "upside": "+96%", "thesis": "HBM·메모리 가격 상승으로 FY27 EPS 추정치가 3개월간 약 18% 상향, 컨센서스 Strong Buy", "source": "https://stockanalysis.com/stocks/mu/forecast/"},
-      {"name": "AMD", "ticker": "AMD", "metricLabel": "2027E EPS 증가율", "metricValue": "+119%", "upside": "+12%", "thesis": "AI 데이터센터 GPU 확대로 2027년 EPS가 2026년 대비 두 배 이상 늘 것으로 전망", "source": "https://stockanalysis.com/stocks/amd/forecast/"},
-      {"name": "엔비디아", "ticker": "NVDA", "metricLabel": "FY28E(1월결산) EPS 증가율", "metricValue": "+70%", "upside": "+72%", "thesis": "FY28 EPS 추정치가 3개월간 약 25% 상향됐고 최근 주가 하락으로 목표가 괴리 확대", "source": "https://stockanalysis.com/stocks/nvda/forecast/"}
+      {"name": "마이크론", "ticker": "MU", "metricLabel": "FY27E(8월결산) EPS 증가율", "metricValue": "+134%", "upside": "+104%", "thesis": "HBM·메모리 가격 상승으로 FY27 EPS가 두 배 이상 늘 전망, 49명 중 45명이 매수 이상 의견", "source": "https://stockanalysis.com/stocks/mu/forecast/"},
+      {"name": "AMD", "ticker": "AMD", "metricLabel": "2027E EPS 증가율", "metricValue": "+119%", "upside": "+23%", "thesis": "AI 데이터센터 GPU 확대로 2027년 EPS 두 배 이상 전망, 11월 BofA·오펜하이머 등 목표가 상향", "source": "https://stockanalysis.com/stocks/amd/forecast/"},
+      {"name": "엔비디아", "ticker": "NVDA", "metricLabel": "FY28E(1월결산) EPS 증가율", "metricValue": "+70%", "upside": "+76%", "thesis": "FY28 EPS +70% 전망은 유지되나 11/13 KeyBanc·Bernstein 하향 등 목표가 하향이 잇따름", "source": "https://stockanalysis.com/stocks/nvda/forecast/"}
     ],
     "etfs": [
       {"name": "VanEck 반도체 ETF", "ticker": "SMH", "metricLabel": "최대 편입 NVDA(18%) FY28E EPS", "metricValue": "+70%", "upside": null, "thesis": "순자산 약 627억 달러, 엔비디아·TSMC·브로드컴·AMD 등 AI 반도체 대형주 집중", "source": "https://stockanalysis.com/etf/smh/holdings/"},
-      {"name": "iShares 반도체 ETF", "ticker": "SOXX", "metricLabel": "상위 AMD·AVGO 2027E EPS", "metricValue": "+119%·+66%", "upside": null, "thesis": "순자산 약 413억 달러, AMD·브로드컴·마이크론·엔비디아가 상위 4종목(약 33%)", "source": "https://stockanalysis.com/etf/soxx/holdings/"},
+      {"name": "iShares 반도체 ETF", "ticker": "SOXX", "metricLabel": "상위 AMD·MU 내년 EPS", "metricValue": "+119%·+134%", "upside": null, "thesis": "순자산 약 413억 달러, AMD·브로드컴·마이크론·엔비디아가 상위 4종목(약 33%)", "source": "https://stockanalysis.com/etf/soxx/holdings/"},
       {"name": "기술 셀렉트 섹터 SPDR", "ticker": "XLK", "metricLabel": "NVDA·AVGO·AMD·MU 합산 비중", "metricValue": "27%", "upside": null, "thesis": "순자산 약 1,129억 달러, 이익 고성장 AI 반도체 4종목 비중이 약 27%", "source": "https://stockanalysis.com/etf/xlk/holdings/"}
     ]
   },
   "software": {
     "stocks": [
-      {"name": "팔란티어", "ticker": "PLTR", "metricLabel": "2027E EPS 증가율", "metricValue": "+49%", "upside": "+30%", "thesis": "AI 플랫폼 수요로 2026년 EPS +127%에 이어 2027년에도 +49% 성장 전망", "source": "https://stockanalysis.com/stocks/pltr/forecast/"},
-      {"name": "오라클", "ticker": "ORCL", "metricLabel": "FY28E(5월결산) EPS 증가율", "metricValue": "+36%", "upside": "+86%", "thesis": "클라우드 인프라 수주 기반 이익 가속 기대, 주가 급락으로 목표가 대비 괴리 커짐", "source": "https://stockanalysis.com/stocks/orcl/forecast/"},
-      {"name": "크라우드스트라이크", "ticker": "CRWD", "metricLabel": "차기 회계연도 EPS 증가율", "metricValue": "+28%", "upside": "+9%", "thesis": "보안 플랫폼 확장으로 2년 연속 EPS 30% 안팎 성장 전망, 컨센서스 Buy", "source": "https://stockanalysis.com/stocks/crwd/forecast/"}
+      {"name": "팔란티어", "ticker": "PLTR", "metricLabel": "2027E EPS 증가율", "metricValue": "+49%", "upside": "+32%", "thesis": "AI 플랫폼 수요로 2026년 EPS +127%에 이어 2027년 +49% 전망, 골드만·바클레이즈 목표가 상향", "source": "https://stockanalysis.com/stocks/pltr/forecast/"},
+      {"name": "오라클", "ticker": "ORCL", "metricLabel": "FY28E(5월결산) EPS 증가율", "metricValue": "+36%", "upside": "+93%", "thesis": "클라우드 인프라 수주 기반 이익 가속 기대, 주가 급락으로 목표가 대비 괴리 커짐", "source": "https://stockanalysis.com/stocks/orcl/forecast/"},
+      {"name": "크라우드스트라이크", "ticker": "CRWD", "metricLabel": "FY28E(1월결산) EPS 증가율", "metricValue": "+28%", "upside": "+11%", "thesis": "보안 플랫폼 확장으로 2년 연속 EPS 30% 안팎 성장 전망, 도이체방크 매수 상향", "source": "https://stockanalysis.com/stocks/crwd/forecast/"}
     ],
     "etfs": [
       {"name": "iShares 확장 기술·소프트웨어 ETF", "ticker": "IGV", "metricLabel": "상위 PLTR·CRWD·ORCL 내년 EPS", "metricValue": "+28~49%", "upside": null, "thesis": "순자산 약 128억 달러, 팔란티어·크라우드스트라이크·오라클 비중 합계 약 24%", "source": "https://stockanalysis.com/etf/igv/holdings/"},
@@ -25,7 +25,7 @@
   },
   "health": {
     "stocks": [
-      {"name": "일라이릴리", "ticker": "LLY", "metricLabel": "2027E EPS 증가율", "metricValue": "+43%", "upside": "+2%", "thesis": "비만·당뇨 치료제 판매 확대로 2026년 +46%, 2027년 +43% EPS 성장 전망", "source": "https://stockanalysis.com/stocks/lly/forecast/"},
+      {"name": "일라이릴리", "ticker": "LLY", "metricLabel": "2027E EPS 증가율", "metricValue": "+43%", "upside": "+2%", "thesis": "비만·당뇨 치료제 판매 확대로 2026년 +46%, 2027년 +43% EPS 성장 전망, 11월 목표가 상향 잇따름", "source": "https://stockanalysis.com/stocks/lly/forecast/"},
       {"name": "애브비", "ticker": "ABBV", "metricLabel": "2027E EPS 증가율", "metricValue": "+16%", "upside": "+6%", "thesis": "면역질환 신약 성장으로 2026년 EPS +40% 반등 후 2027년에도 두 자릿수 성장 전망", "source": "https://stockanalysis.com/stocks/abbv/forecast/"},
       {"name": "유나이티드헬스", "ticker": "UNH", "metricLabel": "2027E EPS 증가율", "metricValue": "+14%", "upside": "+18%", "thesis": "2026년 EPS +26% 회복 후 2027년에도 +14% 성장 전망, 컨센서스 Buy", "source": "https://stockanalysis.com/stocks/unh/forecast/"}
     ],
@@ -37,9 +37,9 @@
   },
   "finance": {
     "stocks": [
-      {"name": "로빈후드", "ticker": "HOOD", "metricLabel": "2027E EPS 증가율", "metricValue": "+38%", "upside": "+58%", "thesis": "2027년 EPS +38% 성장 전망, 최근 주가 조정으로 목표가 대비 상승여력 커짐", "source": "https://stockanalysis.com/stocks/hood/forecast/"},
-      {"name": "아폴로 글로벌 매니지먼트", "ticker": "APO", "metricLabel": "2027E EPS 증가율", "metricValue": "+24%", "upside": "+21%", "thesis": "사모신용·보험 자산 성장으로 2027년 EPS가 20%대 성장할 것으로 전망", "source": "https://stockanalysis.com/stocks/apo/forecast/"},
-      {"name": "찰스 슈왑", "ticker": "SCHW", "metricLabel": "2027E EPS 증가율", "metricValue": "+21%", "upside": "+27%", "thesis": "2026년 EPS +32%에 이어 2027년에도 +21% 성장 전망, 컨센서스 Buy", "source": "https://stockanalysis.com/stocks/schw/forecast/"}
+      {"name": "로빈후드", "ticker": "HOOD", "metricLabel": "2027E EPS 증가율", "metricValue": "+38%", "upside": "+64%", "thesis": "2027년 EPS +38% 성장 전망, 목표가 일부 하향에도 주가 조정으로 상승여력 커짐", "source": "https://stockanalysis.com/stocks/hood/forecast/"},
+      {"name": "아폴로 글로벌 매니지먼트", "ticker": "APO", "metricLabel": "2027E EPS 증가율", "metricValue": "+24%", "upside": "+20%", "thesis": "사모신용·보험 자산 성장으로 2027년 EPS가 20%대 성장할 것으로 전망", "source": "https://stockanalysis.com/stocks/apo/forecast/"},
+      {"name": "찰스 슈왑", "ticker": "SCHW", "metricLabel": "2027E EPS 증가율", "metricValue": "+21%", "upside": "+28%", "thesis": "2026년 EPS +32%에 이어 2027년에도 +21% 성장 전망, 컨센서스 Buy", "source": "https://stockanalysis.com/stocks/schw/forecast/"}
     ],
     "etfs": [
       {"name": "금융 셀렉트 섹터 SPDR", "ticker": "XLF", "metricLabel": "편입 JPM(11%) 2026E EPS", "metricValue": "+21%", "upside": null, "thesis": "순자산 약 539억 달러, 버크셔·JP모건·비자 등 미국 금융 대형주 분산", "source": "https://stockanalysis.com/etf/xlf/holdings/"},
@@ -49,9 +49,9 @@
   },
   "industrial": {
     "stocks": [
-      {"name": "GE 버노바", "ticker": "GEV", "metricLabel": "2027E EPS 증가율", "metricValue": "+66%", "upside": "+44%", "thesis": "AI 데이터센터 전력 수요로 가스터빈·전력망 수주가 늘며 2027년 이익 급증 전망", "source": "https://stockanalysis.com/stocks/gev/forecast/"},
-      {"name": "하우멧 에어로스페이스", "ticker": "HWM", "metricLabel": "2027E EPS 증가율", "metricValue": "+21%", "upside": "+33%", "thesis": "항공기 엔진 부품 수요 호조로 2026년 EPS +46%, 2027년 +21% 성장 전망", "source": "https://stockanalysis.com/stocks/hwm/forecast/"},
-      {"name": "이튼", "ticker": "ETN", "metricLabel": "2027E EPS 증가율", "metricValue": "+19%", "upside": "+31%", "thesis": "데이터센터 전력장비 수요로 2027년 EPS 증가율이 올해(+14%)보다 높아질 전망", "source": "https://stockanalysis.com/stocks/etn/forecast/"}
+      {"name": "GE 버노바", "ticker": "GEV", "metricLabel": "2027E EPS 증가율", "metricValue": "+66%", "upside": "+48%", "thesis": "AI 데이터센터 전력 수요로 가스터빈·전력망 수주가 늘며 2027년 이익 급증 전망", "source": "https://stockanalysis.com/stocks/gev/forecast/"},
+      {"name": "하우멧 에어로스페이스", "ticker": "HWM", "metricLabel": "2027E EPS 증가율", "metricValue": "+21%", "upside": "+34%", "thesis": "항공기 엔진 부품 수요 호조로 2026년 EPS +46%, 2027년 +21% 성장 전망", "source": "https://stockanalysis.com/stocks/hwm/forecast/"},
+      {"name": "이튼", "ticker": "ETN", "metricLabel": "2027E EPS 증가율", "metricValue": "+19%", "upside": "+34%", "thesis": "데이터센터 전력장비 수요로 2027년 EPS 증가율이 올해(+14%)보다 높아질 전망", "source": "https://stockanalysis.com/stocks/etn/forecast/"}
     ],
     "etfs": [
       {"name": "산업재 셀렉트 섹터 SPDR", "ticker": "XLI", "metricLabel": "편입 GEV·GE 2027E EPS", "metricValue": "+66%·+14%", "upside": null, "thesis": "순자산 약 309억 달러, GE에어로·캐터필러·RTX·GE버노바 등 산업재 대형주", "source": "https://stockanalysis.com/etf/xli/holdings/"},
@@ -61,9 +61,9 @@
   },
   "energy": {
     "stocks": [
-      {"name": "블룸에너지", "ticker": "BE", "metricLabel": "2027E EPS 증가율", "metricValue": "+63%", "upside": "+41%", "thesis": "데이터센터용 연료전지 수요로 2026년 EPS 급증에 이어 2027년에도 +63% 전망", "source": "https://stockanalysis.com/stocks/be/forecast/"},
-      {"name": "프리포트맥모란", "ticker": "FCX", "metricLabel": "2027E EPS 증가율", "metricValue": "+34%", "upside": "+29%", "thesis": "구리 사업 이익 확대로 2026년 EPS +78%, 2027년에도 +34% 성장 전망", "source": "https://stockanalysis.com/stocks/fcx/forecast/"},
-      {"name": "퍼스트솔라", "ticker": "FSLR", "metricLabel": "2027E EPS 증가율", "metricValue": "+32%", "upside": "+47%", "thesis": "2027년 EPS 증가율(+32%)이 올해(+23%)보다 가속될 전망, 컨센서스 Buy", "source": "https://stockanalysis.com/stocks/fslr/forecast/"}
+      {"name": "블룸에너지", "ticker": "BE", "metricLabel": "2027E EPS 증가율", "metricValue": "+63%", "upside": "+50%", "thesis": "데이터센터용 연료전지 수요로 2026년 EPS 급증에 이어 2027년에도 +63% 전망", "source": "https://stockanalysis.com/stocks/be/forecast/"},
+      {"name": "프리포트맥모란", "ticker": "FCX", "metricLabel": "2027E EPS 증가율", "metricValue": "+34%", "upside": "+31%", "thesis": "구리 사업 이익 확대로 2026년 EPS +78%, 2027년에도 +34% 성장 전망", "source": "https://stockanalysis.com/stocks/fcx/forecast/"},
+      {"name": "퍼스트솔라", "ticker": "FSLR", "metricLabel": "2027E EPS 증가율", "metricValue": "+32%", "upside": "+50%", "thesis": "2027년 EPS 증가율(+32%)이 올해(+23%)보다 가속될 전망, 컨센서스 Buy", "source": "https://stockanalysis.com/stocks/fslr/forecast/"}
     ],
     "etfs": [
       {"name": "iShares 글로벌 클린에너지 ETF", "ticker": "ICLN", "metricLabel": "편입 FSLR·BE 2027E EPS", "metricValue": "+32%·+63%", "upside": null, "thesis": "순자산 약 21억 달러, 넥스트파워·퍼스트솔라·블룸에너지 등 전력 인프라 성장주", "source": "https://stockanalysis.com/etf/icln/holdings/"},
