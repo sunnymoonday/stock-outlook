@@ -65,3 +65,4 @@ Item:
 
 1. 국내 결과를 `kr.json`, 미국 결과를 `us.json`에 섹터 id별로 쓴다(`{"semis":{"stocks":[...],"etfs":[...]}, ...}`). 국내·미국 조사는 서브에이전트 두 개로 나눠 병렬로 해도 된다. 그다음 `python merge.py`로 `data.json`을 만든다. 경고가 나오면 빠진 항목을 채운다.
 2. Artifact 도구로 재게시: `file_path` = 이 폴더의 `index.html`, `url` = `ARTIFACT_URL.txt`에 적힌 주소, `files` = `{"data.json": "<이 폴더>/data.json"}`. icon은 넘기지 않는다.
+3. GitHub에 올린다(`merge.py`가 `docs/`도 갱신함): `git add -A && git commit -m "data: YYYY-MM-DD 갱신" && git push`. GitHub Pages(https://sunnymoonday.github.io/stock-outlook/)가 몇 분 안에 반영된다.
