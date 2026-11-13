@@ -1,0 +1,750 @@
+{
+ "updatedAt": "2026-11-13T22:47+09:00",
+ "basis": "증권사 컨센서스 기준 향후 12개월 EPS·영업이익 증가율과 최근 추정치 상향을 우선해 고르고, ETF는 해당 분야 이익 개선 기대가 큰 대형 ETF를 골랐습니다.",
+ "sectors": [
+  {
+   "id": "semis",
+   "name": "반도체·AI 하드웨어",
+   "kr": {
+    "stocks": [
+     {
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "metricLabel": "2027E 영업이익 증가율(FnGuide 컨센서스)",
+      "metricValue": "+54%",
+      "upside": null,
+      "thesis": "3Q26 영업이익 83.3조로 사상 최대, 2027년 영업이익 컨센서스 403.8조로 HBM 중심 고성장 지속",
+      "source": "https://biz.heraldcorp.com/article/10917534"
+     },
+     {
+      "name": "삼성전자",
+      "ticker": "005930",
+      "metricLabel": "2027E 영업이익(메리츠, 추정치 13% 상향)",
+      "metricValue": "632조원",
+      "upside": null,
+      "thesis": "3Q26 영업이익 약 107조, HBM4 확대로 2027년 이익 추정치가 잇따라 상향",
+      "source": "https://www.newsway.co.kr/news/view?ud=2026100715391330549"
+     },
+     {
+      "name": "삼성전기",
+      "ticker": "009150",
+      "metricLabel": "2027E 영업이익 증가율(대신증권)",
+      "metricValue": "+112%",
+      "upside": null,
+      "thesis": "3Q26 영업이익 6,910억으로 역대 최대, AI 서버용 MLCC·기판 호조로 목표가 상향",
+      "source": "https://m.news.nate.com/view/20261029n00151"
+     }
+    ],
+    "etfs": [
+     {
+      "name": "TIGER 반도체TOP10",
+      "ticker": "396500",
+      "metricLabel": "핵심 편입 SK하이닉스 2027E 영업이익 증가율",
+      "metricValue": "+54%",
+      "upside": null,
+      "thesis": "SK하이닉스·삼성전자 중심 국내 반도체 ETF 중 순자산 최상위권",
+      "source": "https://www.newspim.com/news/view/20261019000380"
+     },
+     {
+      "name": "KODEX 반도체",
+      "ticker": "091160",
+      "metricLabel": "지수 내 SK하이닉스·삼성전자 비중",
+      "metricValue": "36.8%·22.8%",
+      "upside": null,
+      "thesis": "메모리 양강 비중이 높아 2027년 메모리 이익 확대를 직접 반영",
+      "source": "https://markets.hankyung.com/stock/091160"
+     },
+     {
+      "name": "KODEX AI반도체TOP2플러스",
+      "ticker": "395160",
+      "metricLabel": "삼성전자·SK하이닉스 합산 편입 비중",
+      "metricValue": "약 50%",
+      "upside": null,
+      "thesis": "삼성전자·SK하이닉스에 삼성전기까지 담아 AI 반도체 이익 상향을 집중 반영",
+      "source": "https://www.samsungfund.com/etf/insight/newsroom/view.do?seqn=75993"
+     }
+    ]
+   },
+   "us": {
+    "stocks": [
+     {
+      "name": "마이크론",
+      "ticker": "MU",
+      "metricLabel": "FY27E(8월결산) EPS 증가율",
+      "metricValue": "+134%",
+      "upside": "+96%",
+      "thesis": "HBM·메모리 가격 상승으로 FY27 EPS 추정치가 3개월간 약 18% 상향, 컨센서스 Strong Buy",
+      "source": "https://stockanalysis.com/stocks/mu/forecast/"
+     },
+     {
+      "name": "AMD",
+      "ticker": "AMD",
+      "metricLabel": "2027E EPS 증가율",
+      "metricValue": "+119%",
+      "upside": "+12%",
+      "thesis": "AI 데이터센터 GPU 확대로 2027년 EPS가 2026년 대비 두 배 이상 늘 것으로 전망",
+      "source": "https://stockanalysis.com/stocks/amd/forecast/"
+     },
+     {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "metricLabel": "FY28E(1월결산) EPS 증가율",
+      "metricValue": "+70%",
+      "upside": "+72%",
+      "thesis": "FY28 EPS 추정치가 3개월간 약 25% 상향됐고 최근 주가 하락으로 목표가 괴리 확대",
+      "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+     }
+    ],
+    "etfs": [
+     {
+      "name": "VanEck 반도체 ETF",
+      "ticker": "SMH",
+      "metricLabel": "최대 편입 NVDA(18%) FY28E EPS",
+      "metricValue": "+70%",
+      "upside": null,
+      "thesis": "순자산 약 627억 달러, 엔비디아·TSMC·브로드컴·AMD 등 AI 반도체 대형주 집중",
+      "source": "https://stockanalysis.com/etf/smh/holdings/"
+     },
+     {
+      "name": "iShares 반도체 ETF",
+      "ticker": "SOXX",
+      "metricLabel": "상위 AMD·AVGO 2027E EPS",
+      "metricValue": "+119%·+66%",
+      "upside": null,
+      "thesis": "순자산 약 413억 달러, AMD·브로드컴·마이크론·엔비디아가 상위 4종목(약 33%)",
+      "source": "https://stockanalysis.com/etf/soxx/holdings/"
+     },
+     {
+      "name": "기술 셀렉트 섹터 SPDR",
+      "ticker": "XLK",
+      "metricLabel": "NVDA·AVGO·AMD·MU 합산 비중",
+      "metricValue": "27%",
+      "upside": null,
+      "thesis": "순자산 약 1,129억 달러, 이익 고성장 AI 반도체 4종목 비중이 약 27%",
+      "source": "https://stockanalysis.com/etf/xlk/holdings/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "software",
+   "name": "인터넷·소프트웨어",
+   "kr": {
+    "stocks": [
+     {
+      "name": "NAVER",
+      "ticker": "035420",
+      "metricLabel": "2027E 영업이익(IBK투자증권)",
+      "metricValue": "2.43조원",
+      "upside": null,
+      "thesis": "3Q26 이익은 부진했지만 약 2조원 규모 AI 팩토리 계약이 2027년부터 실적에 반영 예상",
+      "source": "https://www.g-enews.com/article/Securities/2026/11/20261113095642369044093b5d4e_1"
+     },
+     {
+      "name": "크래프톤",
+      "ticker": "259960",
+      "metricLabel": "2027E 영업이익(IBK투자증권)",
+      "metricValue": "1.31조원",
+      "upside": null,
+      "thesis": "3Q26 영업이익은 35.5% 감소했으나 신작 출시로 2027년 이익 반등이 기대됨",
+      "source": "https://kpenews.com/View.aspx?No=4307116"
+     },
+     {
+      "name": "삼성에스디에스",
+      "ticker": "018260",
+      "metricLabel": "3Q26 영업이익 증가율",
+      "metricValue": "+3.7%",
+      "upside": null,
+      "thesis": "클라우드 매출이 18% 성장하며 3Q26 실적이 시장 기대치에 부합",
+      "source": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500202"
+     }
+    ],
+    "etfs": [
+     {
+      "name": "TIGER 소프트웨어",
+      "ticker": "157490",
+      "metricLabel": "편입 상위 NAVER 2027E 영업이익(IBK)",
+      "metricValue": "2.43조원",
+      "upside": null,
+      "thesis": "국내 대표 소프트웨어 ETF로 NAVER의 AI 팩토리 이익 기여를 반영",
+      "source": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7157490004"
+     },
+     {
+      "name": "SOL 한국AI소프트웨어",
+      "ticker": "0105D0",
+      "metricLabel": "편입 1위 NAVER 비중",
+      "metricValue": "24.6%",
+      "upside": null,
+      "thesis": "NAVER·SK텔레콤·삼성SDS 중심으로 국내 AI 소프트웨어 수익화에 투자",
+      "source": "https://www.soletf.com/ko/fund/etf/211098?tabIndex=1"
+     },
+     {
+      "name": "KODEX 게임산업",
+      "ticker": "300950",
+      "metricLabel": "편입 크래프톤 2027E 영업이익(IBK)",
+      "metricValue": "1.31조원",
+      "upside": null,
+      "thesis": "크래프톤·넥슨게임즈·엔씨소프트 등 게임사의 신작 기반 이익 회복을 담는 ETF",
+      "source": "https://www.funetf.co.kr/product/etf/view/KR7300950003"
+     }
+    ]
+   },
+   "us": {
+    "stocks": [
+     {
+      "name": "팔란티어",
+      "ticker": "PLTR",
+      "metricLabel": "2027E EPS 증가율",
+      "metricValue": "+49%",
+      "upside": "+30%",
+      "thesis": "AI 플랫폼 수요로 2026년 EPS +127%에 이어 2027년에도 +49% 성장 전망",
+      "source": "https://stockanalysis.com/stocks/pltr/forecast/"
+     },
+     {
+      "name": "오라클",
+      "ticker": "ORCL",
+      "metricLabel": "FY28E(5월결산) EPS 증가율",
+      "metricValue": "+36%",
+      "upside": "+86%",
+      "thesis": "클라우드 인프라 수주 기반 이익 가속 기대, 주가 급락으로 목표가 대비 괴리 커짐",
+      "source": "https://stockanalysis.com/stocks/orcl/forecast/"
+     },
+     {
+      "name": "크라우드스트라이크",
+      "ticker": "CRWD",
+      "metricLabel": "차기 회계연도 EPS 증가율",
+      "metricValue": "+28%",
+      "upside": "+9%",
+      "thesis": "보안 플랫폼 확장으로 2년 연속 EPS 30% 안팎 성장 전망, 컨센서스 Buy",
+      "source": "https://stockanalysis.com/stocks/crwd/forecast/"
+     }
+    ],
+    "etfs": [
+     {
+      "name": "iShares 확장 기술·소프트웨어 ETF",
+      "ticker": "IGV",
+      "metricLabel": "상위 PLTR·CRWD·ORCL 내년 EPS",
+      "metricValue": "+28~49%",
+      "upside": null,
+      "thesis": "순자산 약 128억 달러, 팔란티어·크라우드스트라이크·오라클 비중 합계 약 24%",
+      "source": "https://stockanalysis.com/etf/igv/holdings/"
+     },
+     {
+      "name": "커뮤니케이션 서비스 셀렉트 섹터 SPDR",
+      "ticker": "XLC",
+      "metricLabel": "상위 META·GOOGL 2027E EPS",
+      "metricValue": "+20%·+18%",
+      "upside": null,
+      "thesis": "순자산 약 221억 달러, 메타·알파벳 비중이 약 40%로 광고·AI 이익 성장에 연동",
+      "source": "https://stockanalysis.com/etf/xlc/holdings/"
+     },
+     {
+      "name": "First Trust 다우존스 인터넷 ETF",
+      "ticker": "FDN",
+      "metricLabel": "편입 META·ORCL 내년 EPS",
+      "metricValue": "+20%·+36%",
+      "upside": null,
+      "thesis": "순자산 약 48억 달러, 아마존·메타·넷플릭스·알파벳 등 미국 인터넷 대형주 집중",
+      "source": "https://stockanalysis.com/etf/fdn/holdings/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "health",
+   "name": "헬스케어·바이오",
+   "kr": {
+    "stocks": [
+     {
+      "name": "셀트리온",
+      "ticker": "068270",
+      "metricLabel": "2027E 영업이익 증가율(메리츠)",
+      "metricValue": "+26.3%",
+      "upside": "+46%",
+      "thesis": "3Q26 영업이익 5,253억으로 74% 증가, 5개 이상 증권사가 목표가를 줄상향",
+      "source": "https://www.ftoday.co.kr/news/articleView.html?idxno=369542"
+     },
+     {
+      "name": "삼성바이오로직스",
+      "ticker": "207940",
+      "metricLabel": "2027E 영업이익 증가율(7월 컨센서스)",
+      "metricValue": "+17%",
+      "upside": "+41%",
+      "thesis": "3Q26 매출·영업이익 분기 최대, 연간 매출 성장 가이던스를 20%로 상향",
+      "source": "https://m.sedaily.com/article/20104620"
+     },
+     {
+      "name": "SK바이오팜",
+      "ticker": "326030",
+      "metricLabel": "3Q26 영업이익 증가율",
+      "metricValue": "+65.9%",
+      "upside": null,
+      "thesis": "세노바메이트 판매 확대로 3Q26 영업이익 1,163억, 분기 최대 실적 경신",
+      "source": "https://www.ddaily.co.kr/page/view/2026110519472650183"
+     }
+    ],
+    "etfs": [
+     {
+      "name": "TIGER 바이오TOP10",
+      "ticker": "364970",
+      "metricLabel": "편입 1위 셀트리온 2027E 영업이익 증가율",
+      "metricValue": "+26.3%",
+      "upside": null,
+      "thesis": "셀트리온·삼성바이오로직스·알테오젠 비중이 70%대로 대형 바이오 이익 성장을 반영",
+      "source": "https://www.funetf.co.kr/product/etf/view/KR7364970004"
+     },
+     {
+      "name": "TIGER 헬스케어",
+      "ticker": "143860",
+      "metricLabel": "편입 1위 셀트리온 3Q26 영업이익 증가율",
+      "metricValue": "+74.3%",
+      "upside": null,
+      "thesis": "셀트리온 24%·삼성바이오로직스 13% 등 헬스케어 대형주 실적 개선을 담음",
+      "source": "https://www.funetf.co.kr/product/etf/view/KR7143860005"
+     },
+     {
+      "name": "TIGER 200 헬스케어",
+      "ticker": "227540",
+      "metricLabel": "편입 1위 셀트리온 비중",
+      "metricValue": "23.3%",
+      "upside": null,
+      "thesis": "코스피200 헬스케어 대형주 중심으로 바이오시밀러·CDMO 이익 확대를 반영",
+      "source": "https://goinsider.kr/en/etf/227540"
+     }
+    ]
+   },
+   "us": {
+    "stocks": [
+     {
+      "name": "일라이릴리",
+      "ticker": "LLY",
+      "metricLabel": "2027E EPS 증가율",
+      "metricValue": "+43%",
+      "upside": "+2%",
+      "thesis": "비만·당뇨 치료제 판매 확대로 2026년 +46%, 2027년 +43% EPS 성장 전망",
+      "source": "https://stockanalysis.com/stocks/lly/forecast/"
+     },
+     {
+      "name": "애브비",
+      "ticker": "ABBV",
+      "metricLabel": "2027E EPS 증가율",
+      "metricValue": "+16%",
+      "upside": "+6%",
+      "thesis": "면역질환 신약 성장으로 2026년 EPS +40% 반등 후 2027년에도 두 자릿수 성장 전망",
+      "source": "https://stockanalysis.com/stocks/abbv/forecast/"
+     },
+     {
+      "name": "유나이티드헬스",
+      "ticker": "UNH",
+      "metricLabel": "2027E EPS 증가율",
+      "metricValue": "+14%",
+      "upside": "+18%",
+      "thesis": "2026년 EPS +26% 회복 후 2027년에도 +14% 성장 전망, 컨센서스 Buy",
+      "source": "https://stockanalysis.com/stocks/unh/forecast/"
+     }
+    ],
+    "etfs": [
+     {
+      "name": "헬스케어 셀렉트 섹터 SPDR",
+      "ticker": "XLV",
+      "metricLabel": "최대 편입 LLY(17%) 2027E EPS",
+      "metricValue": "+43%",
+      "upside": null,
+      "thesis": "순자산 약 505억 달러, 일라이릴리·애브비·유나이티드헬스 비중 합계 약 30%",
+      "source": "https://stockanalysis.com/etf/xlv/holdings/"
+     },
+     {
+      "name": "iShares 미국 의료기기 ETF",
+      "ticker": "IHI",
+      "metricLabel": "편입 ISRG(15%) 2026E EPS",
+      "metricValue": "+26%",
+      "upside": null,
+      "thesis": "순자산 약 41억 달러, 수술로봇 인튜이티브서지컬 등 의료기기 대형주 중심",
+      "source": "https://stockanalysis.com/etf/ihi/holdings/"
+     },
+     {
+      "name": "iShares 바이오테크 ETF",
+      "ticker": "IBB",
+      "metricLabel": "편입 VRTX(8%) 2027E EPS",
+      "metricValue": "+10%",
+      "upside": null,
+      "thesis": "순자산 약 114억 달러, 길리어드·암젠·버텍스 등 대형 바이오 중심",
+      "source": "https://stockanalysis.com/etf/ibb/holdings/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "finance",
+   "name": "금융",
+   "kr": {
+    "stocks": [
+     {
+      "name": "KB금융",
+      "ticker": "105560",
+      "metricLabel": "3Q26 연결순이익",
+      "metricValue": "1.91조원",
+      "upside": "+46%",
+      "thesis": "분기 2조원 안팎 순이익과 주주환원 확대 기대, 목표가 23만원(키움)",
+      "source": "https://stockhub.kr/news/news_1864ce44dd23"
+     },
+     {
+      "name": "하나금융지주",
+      "ticker": "086790",
+      "metricLabel": "3Q26E 지배순이익 증가율(신한證)",
+      "metricValue": "+14.9%",
+      "upside": null,
+      "thesis": "금리 상승으로 이익 개선, 총주주환원율 51% 가능성에 목표가 상향",
+      "source": "https://mobile.newsis.com/view/NISX20260902_0003772431"
+     },
+     {
+      "name": "우리금융지주",
+      "ticker": "316140",
+      "metricLabel": "3Q26 순이익 컨센서스 상회폭",
+      "metricValue": "+7.8%",
+      "upside": null,
+      "thesis": "3Q26 지배순이익 1조492억으로 기대치를 웃돌며 주주환원 기대 확대",
+      "source": "https://www.etoday.co.kr/news/view/2639806"
+     }
+    ],
+    "etfs": [
+     {
+      "name": "TIGER 은행고배당플러스TOP10",
+      "ticker": "466940",
+      "metricLabel": "편입 상위 KB금융 3Q26 순이익",
+      "metricValue": "1.91조원",
+      "upside": null,
+      "thesis": "하나·우리·KB금융을 각 16% 안팎 담아 금융지주 이익·배당 확대를 반영",
+      "source": "https://www.funetf.co.kr/product/etf/view/KR7466940004"
+     },
+     {
+      "name": "KODEX 은행",
+      "ticker": "091170",
+      "metricLabel": "편입 상위 하나금융 3Q26E 순이익 증가율",
+      "metricValue": "+14.9%",
+      "upside": null,
+      "thesis": "신한·하나·KB금융 중심으로 은행 이익 개선과 주주환원 확대를 담는 원조 은행 ETF",
+      "source": "https://www.funetf.co.kr/product/etf/view/KR7091170001"
+     },
+     {
+      "name": "TIGER 200 금융",
+      "ticker": "139270",
+      "metricLabel": null,
+      "metricValue": null,
+      "upside": null,
+      "thesis": "코스피200 금융 대형주에 분산 투자해 금융지주 실적 개선을 반영",
+      "source": null
+     }
+    ]
+   },
+   "us": {
+    "stocks": [
+     {
+      "name": "로빈후드",
+      "ticker": "HOOD",
+      "metricLabel": "2027E EPS 증가율",
+      "metricValue": "+38%",
+      "upside": "+58%",
+      "thesis": "2027년 EPS +38% 성장 전망, 최근 주가 조정으로 목표가 대비 상승여력 커짐",
+      "source": "https://stockanalysis.com/stocks/hood/forecast/"
+     },
+     {
+      "name": "아폴로 글로벌 매니지먼트",
+      "ticker": "APO",
+      "metricLabel": "2027E EPS 증가율",
+      "metricValue": "+24%",
+      "upside": "+21%",
+      "thesis": "사모신용·보험 자산 성장으로 2027년 EPS가 20%대 성장할 것으로 전망",
+      "source": "https://stockanalysis.com/stocks/apo/forecast/"
+     },
+     {
+      "name": "찰스 슈왑",
+      "ticker": "SCHW",
+      "metricLabel": "2027E EPS 증가율",
+      "metricValue": "+21%",
+      "upside": "+27%",
+      "thesis": "2026년 EPS +32%에 이어 2027년에도 +21% 성장 전망, 컨센서스 Buy",
+      "source": "https://stockanalysis.com/stocks/schw/forecast/"
+     }
+    ],
+    "etfs": [
+     {
+      "name": "금융 셀렉트 섹터 SPDR",
+      "ticker": "XLF",
+      "metricLabel": "편입 JPM(11%) 2026E EPS",
+      "metricValue": "+21%",
+      "upside": null,
+      "thesis": "순자산 약 539억 달러, 버크셔·JP모건·비자 등 미국 금융 대형주 분산",
+      "source": "https://stockanalysis.com/etf/xlf/holdings/"
+     },
+     {
+      "name": "iShares 미국 증권·브로커 ETF",
+      "ticker": "IAI",
+      "metricLabel": "상위 GS·MS·SCHW 2026E EPS",
+      "metricValue": "+39%·+26%·+32%",
+      "upside": null,
+      "thesis": "순자산 약 13억 달러, 골드만삭스·모건스탠리·슈왑 비중 약 41%로 자본시장 호황 수혜",
+      "source": "https://stockanalysis.com/etf/iai/holdings/"
+     },
+     {
+      "name": "Invesco KBW 은행 ETF",
+      "ticker": "KBWB",
+      "metricLabel": "편입 JPM·GS·MS 2026E EPS",
+      "metricValue": "+21~39%",
+      "upside": null,
+      "thesis": "순자산 약 67억 달러, 웰스파고·JP모건·골드만삭스 등 대형 은행 중심",
+      "source": "https://stockanalysis.com/etf/kbwb/holdings/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "industrial",
+   "name": "산업재·방산·조선",
+   "kr": {
+    "stocks": [
+     {
+      "name": "효성중공업",
+      "ticker": "298040",
+      "metricLabel": "2027E 영업이익 증가율(신한투자증권)",
+      "metricValue": "+32%",
+      "upside": null,
+      "thesis": "3Q 납품 지연은 4분기로 이연, 전력기기 수요로 2027년 영업이익 1.37조 전망",
+      "source": "https://www.newsway.co.kr/news/view?ud=2026110208085957745"
+     },
+     {
+      "name": "HD현대일렉트릭",
+      "ticker": "267260",
+      "metricLabel": "2027E 영업이익 증가율(LS증권)",
+      "metricValue": "+23%",
+      "upside": null,
+      "thesis": "원화 강세로 3Q는 주춤했지만 전력기기 수요로 내년 영업이익 1.44조 전망",
+      "source": "https://www.buffettlab.co.kr/news/view.php?idx=57511"
+     },
+     {
+      "name": "HD현대중공업",
+      "ticker": "329180",
+      "metricLabel": "3Q26 영업이익 증가율",
+      "metricValue": "+61.4%",
+      "upside": null,
+      "thesis": "고선가 수주 물량 매출 비중 확대로 2027년까지 수익성 개선 여력, 2027E PER 8배",
+      "source": "https://www.hankyung.com/article/2026102922056"
+     }
+    ],
+    "etfs": [
+     {
+      "name": "SOL 조선TOP3플러스",
+      "ticker": "466920",
+      "metricLabel": "편입 HD현대중공업 3Q26 영업이익 증가율",
+      "metricValue": "+61.4%",
+      "upside": null,
+      "thesis": "조선 3사 집중 ETF로 고선가 물량 매출 인식에 따른 이익 개선을 반영",
+      "source": "https://dealsite.co.kr/articles/172011"
+     },
+     {
+      "name": "TIGER 조선TOP10",
+      "ticker": "494670",
+      "metricLabel": "편입 HD현대중공업 3Q26 영업이익 증가율",
+      "metricValue": "+61.4%",
+      "upside": null,
+      "thesis": "조선·기자재 상위 10종목에 투자해 2027년까지 이어질 수익성 개선을 담음",
+      "source": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7494670003"
+     },
+     {
+      "name": "PLUS K방산",
+      "ticker": "449450",
+      "metricLabel": null,
+      "metricValue": null,
+      "upside": null,
+      "thesis": "국내 방산 대형주 중심 ETF로 4분기 수출 납품 집중에 따른 이익 회복을 반영",
+      "source": "https://dealsite.co.kr/articles/172011"
+     }
+    ]
+   },
+   "us": {
+    "stocks": [
+     {
+      "name": "GE 버노바",
+      "ticker": "GEV",
+      "metricLabel": "2027E EPS 증가율",
+      "metricValue": "+66%",
+      "upside": "+44%",
+      "thesis": "AI 데이터센터 전력 수요로 가스터빈·전력망 수주가 늘며 2027년 이익 급증 전망",
+      "source": "https://stockanalysis.com/stocks/gev/forecast/"
+     },
+     {
+      "name": "하우멧 에어로스페이스",
+      "ticker": "HWM",
+      "metricLabel": "2027E EPS 증가율",
+      "metricValue": "+21%",
+      "upside": "+33%",
+      "thesis": "항공기 엔진 부품 수요 호조로 2026년 EPS +46%, 2027년 +21% 성장 전망",
+      "source": "https://stockanalysis.com/stocks/hwm/forecast/"
+     },
+     {
+      "name": "이튼",
+      "ticker": "ETN",
+      "metricLabel": "2027E EPS 증가율",
+      "metricValue": "+19%",
+      "upside": "+31%",
+      "thesis": "데이터센터 전력장비 수요로 2027년 EPS 증가율이 올해(+14%)보다 높아질 전망",
+      "source": "https://stockanalysis.com/stocks/etn/forecast/"
+     }
+    ],
+    "etfs": [
+     {
+      "name": "산업재 셀렉트 섹터 SPDR",
+      "ticker": "XLI",
+      "metricLabel": "편입 GEV·GE 2027E EPS",
+      "metricValue": "+66%·+14%",
+      "upside": null,
+      "thesis": "순자산 약 309억 달러, GE에어로·캐터필러·RTX·GE버노바 등 산업재 대형주",
+      "source": "https://stockanalysis.com/etf/xli/holdings/"
+     },
+     {
+      "name": "iShares 미국 항공우주·방산 ETF",
+      "ticker": "ITA",
+      "metricLabel": "최대 편입 GE(22%) 2027E EPS",
+      "metricValue": "+14%",
+      "upside": null,
+      "thesis": "순자산 약 123억 달러, GE에어로·RTX·보잉·하우멧 등 항공·방산 집중",
+      "source": "https://stockanalysis.com/etf/ita/holdings/"
+     },
+     {
+      "name": "First Trust 스마트그리드 인프라 ETF",
+      "ticker": "GRID",
+      "metricLabel": "편입 ETN(8%) 2027E EPS",
+      "metricValue": "+19%",
+      "upside": null,
+      "thesis": "순자산 약 107억 달러, 이튼·콴타·ABB·슈나이더 등 전력망 투자 수혜주",
+      "source": "https://stockanalysis.com/etf/grid/holdings/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "energy",
+   "name": "에너지·2차전지·소재",
+   "kr": {
+    "stocks": [
+     {
+      "name": "LG에너지솔루션",
+      "ticker": "373220",
+      "metricLabel": "2027E 영업이익 증가율(신한투자증권)",
+      "metricValue": "+279%",
+      "upside": null,
+      "thesis": "3Q26 영업이익 7,560억, ESS 수주잔고 160GWh로 2027년 이익 급증 전망",
+      "source": "https://www.ajunews.com/view/20261104084310872"
+     },
+     {
+      "name": "삼성SDI",
+      "ticker": "006400",
+      "metricLabel": "2027E 영업이익(신한, 추정치 6.3% 상향)",
+      "metricValue": "1.72조원",
+      "upside": null,
+      "thesis": "ESS가 내년 이익의 80% 이상을 차지하며 흑자 전환, 목표가 62만→74만원 상향",
+      "source": "https://www.businesspost.co.kr/BP?command=article_view&num=449264"
+     },
+     {
+      "name": "S-Oil",
+      "ticker": "010950",
+      "metricLabel": "3Q26 영업이익 전분기 대비 증가율",
+      "metricValue": "+45.8%",
+      "upside": null,
+      "thesis": "정제마진·윤활기유 강세로 3Q26 영업이익 1.41조, 강세가 내년까지 이어질 전망",
+      "source": "https://www.etoday.co.kr/news/view/2643289"
+     }
+    ],
+    "etfs": [
+     {
+      "name": "KODEX 2차전지산업",
+      "ticker": "305720",
+      "metricLabel": "편입 LG에너지솔루션 2027E 영업이익 증가율",
+      "metricValue": "+279%",
+      "upside": null,
+      "thesis": "국내 2차전지 ETF 중 순자산 최대급으로 ESS 주도 배터리 이익 회복을 반영",
+      "source": "https://biz.heraldcorp.com/article/10897668"
+     },
+     {
+      "name": "TIGER 2차전지TOP10",
+      "ticker": "364980",
+      "metricLabel": "편입 삼성SDI 2027E 영업이익(신한)",
+      "metricValue": "1.72조원",
+      "upside": null,
+      "thesis": "배터리·소재 상위 10종목에 집중 투자해 ESS 수요 확대 수혜를 담음",
+      "source": "https://www.funetf.co.kr/product/etf/view/KR7364980003"
+     },
+     {
+      "name": "TIGER 2차전지테마",
+      "ticker": "305540",
+      "metricLabel": null,
+      "metricValue": null,
+      "upside": null,
+      "thesis": "셀·소재·장비 전반의 2차전지 밸류체인에 분산 투자하는 ETF",
+      "source": "https://www.funetf.co.kr/product/etf/view/KR7305540007"
+     }
+    ]
+   },
+   "us": {
+    "stocks": [
+     {
+      "name": "블룸에너지",
+      "ticker": "BE",
+      "metricLabel": "2027E EPS 증가율",
+      "metricValue": "+63%",
+      "upside": "+41%",
+      "thesis": "데이터센터용 연료전지 수요로 2026년 EPS 급증에 이어 2027년에도 +63% 전망",
+      "source": "https://stockanalysis.com/stocks/be/forecast/"
+     },
+     {
+      "name": "프리포트맥모란",
+      "ticker": "FCX",
+      "metricLabel": "2027E EPS 증가율",
+      "metricValue": "+34%",
+      "upside": "+29%",
+      "thesis": "구리 사업 이익 확대로 2026년 EPS +78%, 2027년에도 +34% 성장 전망",
+      "source": "https://stockanalysis.com/stocks/fcx/forecast/"
+     },
+     {
+      "name": "퍼스트솔라",
+      "ticker": "FSLR",
+      "metricLabel": "2027E EPS 증가율",
+      "metricValue": "+32%",
+      "upside": "+47%",
+      "thesis": "2027년 EPS 증가율(+32%)이 올해(+23%)보다 가속될 전망, 컨센서스 Buy",
+      "source": "https://stockanalysis.com/stocks/fslr/forecast/"
+     }
+    ],
+    "etfs": [
+     {
+      "name": "iShares 글로벌 클린에너지 ETF",
+      "ticker": "ICLN",
+      "metricLabel": "편입 FSLR·BE 2027E EPS",
+      "metricValue": "+32%·+63%",
+      "upside": null,
+      "thesis": "순자산 약 21억 달러, 넥스트파워·퍼스트솔라·블룸에너지 등 전력 인프라 성장주",
+      "source": "https://stockanalysis.com/etf/icln/holdings/"
+     },
+     {
+      "name": "Global X 구리광산 ETF",
+      "ticker": "COPX",
+      "metricLabel": "편입 FCX 2027E EPS",
+      "metricValue": "+34%",
+      "upside": null,
+      "thesis": "순자산 약 60억 달러, BHP·테크·프리포트 등 구리 생산 기업에 고르게 분산",
+      "source": "https://stockanalysis.com/etf/copx/holdings/"
+     },
+     {
+      "name": "소재 셀렉트 섹터 SPDR",
+      "ticker": "XLB",
+      "metricLabel": "편입 NEM·FCX 2026E EPS",
+      "metricValue": "+33%·+78%",
+      "upside": null,
+      "thesis": "순자산 약 85억 달러, 린데·뉴몬트·프리포트 등 미국 소재 대형주",
+      "source": "https://stockanalysis.com/etf/xlb/holdings/"
+     }
+    ]
+   }
+  }
+ ]
+}

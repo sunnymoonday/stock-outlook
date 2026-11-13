@@ -1,0 +1,182 @@
+<title>실적전망 톱픽 보드</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: sticky filter bar, then one band per sector with 국내 | 미국 columns side by side (stacked on phones) */
+:root {
+  --bg: #f3f5f8;
+  --surface: #ffffff;
+  --ink: #15202e;
+  --muted: #5d6b7c;
+  --line: #dbe1e8;
+  --accent: #1f4fd1;
+  --up: #d1323a;      /* 국내 관례: 상승 = 빨강 */
+  --up-bg: #fde9ea;
+  --chip: #e8edf6;
+  --f-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --f-num: "IBM Plex Mono", ui-monospace, "Consolas", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f141b; --surface: #171e27; --ink: #e6ebf1; --muted: #93a1b2; --line: #28323e;
+    --accent: #7ea2ff; --up: #ff6b72; --up-bg: #3a1c20; --chip: #212b38; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f141b; --surface: #171e27; --ink: #e6ebf1; --muted: #93a1b2; --line: #28323e;
+  --accent: #7ea2ff; --up: #ff6b72; --up-bg: #3a1c20; --chip: #212b38; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap { max-width: 1180px; margin: 0 auto; padding-block: 28px 48px; }
+header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; }
+h1 { font-size: clamp(1.5rem, 3.4vw, 2.1rem); margin: 0; letter-spacing: -0.02em; text-wrap: balance; }
+.sub { color: var(--muted); margin: 4px 0 0; }
+.stamp { font-family: var(--f-num); font-size: 0.85rem; color: var(--muted); text-align: right; }
+.stamp b { color: var(--ink); font-weight: 600; }
+
+.bar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
+  display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; padding-block: 14px; margin-top: 18px;
+  border-bottom: 1px solid var(--line);
+}
+.seg { display: inline-flex; background: var(--chip); border-radius: 8px; padding: 3px; }
+.seg button {
+  font: inherit; font-size: 0.9rem; border: 0; background: transparent; color: var(--muted);
+  padding: 6px 14px; border-radius: 6px; cursor: pointer;
+}
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); font-weight: 700; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+.seg button:focus-visible, .jump a:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.jump { display: flex; flex-wrap: wrap; gap: 6px; }
+.jump a { font-size: 0.82rem; color: var(--accent); text-decoration: none; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; }
+.jump a:hover { background: var(--chip); }
+
+.basis { color: var(--muted); font-size: 0.88rem; margin: 14px 0 0; max-width: 75ch; }
+
+section.sector { padding-top: 34px; scroll-margin-top: 80px; }
+section.sector h2 { font-size: 1.25rem; margin: 0 0 14px; display: flex; align-items: baseline; gap: 10px; }
+section.sector h2 small { font-size: 0.8rem; color: var(--muted); font-weight: 500; }
+.markets { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); gap: 16px; }
+.market { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; min-width: 0; }
+.market h3 { margin: 0 0 4px; font-size: 0.8rem; letter-spacing: 0.08em; color: var(--muted); text-transform: uppercase; }
+.group + .group { border-top: 1px dashed var(--line); margin-top: 12px; padding-top: 10px; }
+.group h4 { margin: 6px 0 6px; font-size: 0.85rem; color: var(--accent); }
+ol.items { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.item { display: grid; grid-template-columns: 1.4rem 1fr auto; gap: 2px 10px; align-items: baseline; }
+.rank { font-family: var(--f-num); color: var(--muted); font-size: 0.85rem; }
+.name { font-weight: 700; min-width: 0; overflow-wrap: anywhere; }
+.name .tk { font-family: var(--f-num); font-weight: 500; font-size: 0.78rem; color: var(--muted); margin-left: 6px; }
+.figs { display: flex; gap: 6px; align-items: baseline; justify-self: end; font-variant-numeric: tabular-nums; }
+.metric { font-family: var(--f-num); font-weight: 600; color: var(--up); }
+.metric.neg { color: var(--accent); }
+.upside { font-family: var(--f-num); font-size: 0.75rem; background: var(--up-bg); color: var(--up); padding: 1px 6px; border-radius: 4px; white-space: nowrap; }
+.detail { grid-column: 2 / 4; font-size: 0.86rem; color: var(--muted); min-width: 0; }
+.detail .lbl { color: var(--ink); }
+.detail a { color: var(--accent); text-decoration: none; white-space: nowrap; }
+.detail a:hover { text-decoration: underline; }
+
+.notice { margin-top: 40px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 10px; font-size: 0.84rem; color: var(--muted); max-width: 80ch; }
+.empty { padding: 40px 0; color: var(--muted); }
+[data-market="kr"] .market.us, [data-market="us"] .market.kr { display: none; }
+[data-kind="stocks"] .group.etfs, [data-kind="etfs"] .group.stocks { display: none; }
+@media (max-width: 520px) { .stamp { text-align: left; } .detail { grid-column: 1 / 4; } }
+</style>
+
+<div class="wrap" id="app" data-market="all" data-kind="all">
+  <header>
+    <div>
+      <h1>실적전망 톱픽 보드</h1>
+      <p class="sub">국내·미국 주식과 ETF, 분야별 실적 전망 상위 3개씩</p>
+    </div>
+    <div class="stamp">기준 <b id="updated">불러오는 중</b><br>매일 오전 8:00 (KST) 갱신</div>
+  </header>
+
+  <div class="bar">
+    <div class="seg" role="group" aria-label="시장">
+      <button id="m-all" data-m="all" aria-pressed="true">전체</button>
+      <button id="m-kr" data-m="kr" aria-pressed="false">국내</button>
+      <button id="m-us" data-m="us" aria-pressed="false">미국</button>
+    </div>
+    <div class="seg" role="group" aria-label="종류">
+      <button id="k-all" data-k="all" aria-pressed="true">전체</button>
+      <button id="k-stocks" data-k="stocks" aria-pressed="false">주식</button>
+      <button id="k-etfs" data-k="etfs" aria-pressed="false">ETF</button>
+    </div>
+    <nav class="jump" id="jump" aria-label="분야 이동"></nav>
+  </div>
+
+  <p class="basis" id="basis"></p>
+  <main id="sectors"><p class="empty">데이터를 불러오는 중입니다.</p></main>
+
+  <p class="notice">
+    이 페이지는 공개된 증권사 컨센서스와 기사를 모아 매일 자동으로 정리한 참고 자료입니다. 특정 종목의 매수·매도 권유가 아니며,
+    수치는 출처 시점 기준이라 실제 값과 다를 수 있습니다. 투자 판단과 책임은 본인에게 있습니다.
+    빨간색은 상승(증가) 전망을 뜻합니다.
+  </p>
+</div>
+
+<script>
+(function () {
+  const app = document.getElementById('app');
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const safeUrl = u => /^https?:\/\//i.test(u || '') ? u : null;
+
+  function setFilter(attr, val, sel) {
+    app.dataset[attr] = val;
+    document.querySelectorAll(sel).forEach(b => b.setAttribute('aria-pressed', String(b.dataset[attr === 'market' ? 'm' : 'k'] === val)));
+    try { localStorage.setItem('filter-' + attr, val); } catch (e) {}
+  }
+  document.querySelectorAll('[data-m]').forEach(b => b.addEventListener('click', () => setFilter('market', b.dataset.m, '[data-m]')));
+  document.querySelectorAll('[data-k]').forEach(b => b.addEventListener('click', () => setFilter('kind', b.dataset.k, '[data-k]')));
+  try {
+    const m = localStorage.getItem('filter-market'); if (m) setFilter('market', m, '[data-m]');
+    const k = localStorage.getItem('filter-kind'); if (k) setFilter('kind', k, '[data-k]');
+  } catch (e) {}
+
+  function itemHtml(it, i) {
+    const val = it.metricValue ?? '–';
+    const neg = /^-/.test(String(val));
+    const src = safeUrl(it.source);
+    return `<li class="item">
+      <span class="rank">${i + 1}</span>
+      <span class="name">${esc(it.name)}<span class="tk">${esc(it.ticker)}</span></span>
+      <span class="figs"><span class="metric${neg ? ' neg' : ''}">${esc(val)}</span>${it.upside ? `<span class="upside" title="컨센서스 목표가 대비 상승여력">목표가 ${esc(it.upside)}</span>` : ''}</span>
+      <span class="detail"><span class="lbl">${esc(it.metricLabel)}</span> · ${esc(it.thesis)}${src ? ` <a href="${esc(src)}" target="_blank" rel="noopener">출처 ↗</a>` : ''}</span>
+    </li>`;
+  }
+  function groupHtml(kind, list) {
+    const label = kind === 'stocks' ? '주식' : 'ETF';
+    const body = (list && list.length) ? `<ol class="items">${list.map(itemHtml).join('')}</ol>` : '<p class="empty">오늘은 데이터가 없습니다.</p>';
+    return `<div class="group ${kind}"><h4>${label}</h4>${body}</div>`;
+  }
+  function marketHtml(code, m) {
+    return `<div class="market ${code}"><h3>${code === 'kr' ? '국내' : '미국'}</h3>${groupHtml('stocks', m?.stocks)}${groupHtml('etfs', m?.etfs)}</div>`;
+  }
+
+  function render(d) {
+    const t = new Date(d.updatedAt);
+    document.getElementById('updated').textContent = isNaN(t) ? d.updatedAt :
+      t.toLocaleString('ko-KR', { timeZone: 'Asia/Seoul', year: 'numeric', month: 'long', day: 'numeric', weekday: 'short', hour: '2-digit', minute: '2-digit' });
+    document.getElementById('basis').textContent = d.basis || '';
+    document.getElementById('jump').innerHTML = d.sectors.map(s => `<a href="#${esc(s.id)}">${esc(s.name)}</a>`).join('');
+    document.getElementById('sectors').innerHTML = d.sectors.map(s => `
+      <section class="sector" id="${esc(s.id)}">
+        <h2>${esc(s.name)}</h2>
+        <div class="markets">${marketHtml('kr', s.kr)}${marketHtml('us', s.us)}</div>
+      </section>`).join('');
+  }
+
+  fetch('data.json', { cache: 'no-store' })
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(() => {
+      document.getElementById('updated').textContent = '불러오기 실패';
+      document.getElementById('sectors').innerHTML = '<p class="empty">데이터 파일을 읽지 못했습니다. 잠시 후 새로고침해 주세요.</p>';
+    });
+})();
+</script>
