@@ -82,11 +82,11 @@
       {
         "name": "삼성에스디에스",
         "ticker": "018260",
-        "metricLabel": "3Q26 영업이익 증가율",
-        "metricValue": "+3.7%",
+        "metricLabel": "목표주가 상향폭(하나증권, 24만→29만원)",
+        "metricValue": "+21%",
         "upside": null,
-        "thesis": "클라우드 매출이 18% 성장하며 3Q26 실적이 시장 기대치에 부합",
-        "source": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500202"
+        "thesis": "국내 AX 전환 가속과 AI 데이터센터 추가 확보 기대로 하나증권이 목표가를 상향",
+        "source": "https://core.asiae.co.kr/article/2026110915263348144"
       }
     ],
     "etfs": [
