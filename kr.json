@@ -4,49 +4,49 @@
       {
         "name": "SK하이닉스",
         "ticker": "000660",
-        "metricLabel": "2027E 영업이익 증가율(FnGuide 컨센서스)",
-        "metricValue": "+54%",
-        "upside": null,
-        "thesis": "3Q26 영업이익 83.3조로 사상 최대, 2027년 영업이익 컨센서스 403.8조로 HBM 중심 고성장 지속",
-        "source": "https://biz.heraldcorp.com/article/10917534"
+        "metricLabel": "2027E 영업이익 컨센서스(FnGuide, 7/28 대비 +16%)",
+        "metricValue": "462.4조원",
+        "upside": "+173%",
+        "thesis": "목표가 하향에도 2027년 영업이익 컨센서스는 7월 말 397조에서 462조로 상향 지속",
+        "source": "https://www.fnnews.com/news/202611181546039065"
       },
       {
         "name": "삼성전자",
         "ticker": "005930",
-        "metricLabel": "2027E 영업이익(메리츠, 추정치 13% 상향)",
-        "metricValue": "632조원",
-        "upside": null,
-        "thesis": "3Q26 영업이익 약 107조, HBM4 확대로 2027년 이익 추정치가 잇따라 상향",
-        "source": "https://www.newsway.co.kr/news/view?ud=2026100715391330549"
+        "metricLabel": "2027E 영업이익 컨센서스(FnGuide, 7/28 대비 +12%)",
+        "metricValue": "609.2조원",
+        "upside": "+138%",
+        "thesis": "주가 급락 속에도 2027년 영업이익 컨센서스가 541조에서 609조로 올라 이익 상향 지속",
+        "source": "https://www.fnnews.com/news/202611181546039065"
       },
       {
         "name": "삼성전기",
         "ticker": "009150",
-        "metricLabel": "2027E 영업이익 증가율(대신증권)",
-        "metricValue": "+112%",
-        "upside": null,
-        "thesis": "3Q26 영업이익 6,910억으로 역대 최대, AI 서버용 MLCC·기판 호조로 목표가 상향",
-        "source": "https://m.news.nate.com/view/20261029n00151"
+        "metricLabel": "2027E 영업이익(iM증권, 추정치 2.2% 상향)",
+        "metricValue": "5.03조원",
+        "upside": "+85%",
+        "thesis": "iM증권이 목표가는 낮췄지만 2027년 영업이익 추정치는 5조원대로 올려 이익 상향 지속",
+        "source": "https://m.sedaily.com/article/20116242"
       }
     ],
     "etfs": [
       {
         "name": "TIGER 반도체TOP10",
         "ticker": "396500",
-        "metricLabel": "핵심 편입 SK하이닉스 2027E 영업이익 증가율",
-        "metricValue": "+54%",
+        "metricLabel": "핵심 편입 SK하이닉스 2027E 영업이익 컨센서스",
+        "metricValue": "462.4조원",
         "upside": null,
-        "thesis": "SK하이닉스·삼성전자 중심 국내 반도체 ETF 중 순자산 최상위권",
-        "source": "https://www.newspim.com/news/view/20261019000380"
+        "thesis": "삼성전자·SK하이닉스·SK스퀘어 중심으로 순자산 6.8조원, 메모리 이익 상향을 직접 반영",
+        "source": "https://www.fnnews.com/news/202611181546039065"
       },
       {
         "name": "KODEX 반도체",
         "ticker": "091160",
-        "metricLabel": "지수 내 SK하이닉스·삼성전자 비중",
-        "metricValue": "36.8%·22.8%",
+        "metricLabel": "편입 삼성전자·SK하이닉스 비중",
+        "metricValue": "19.7%·16.7%",
         "upside": null,
-        "thesis": "메모리 양강 비중이 높아 2027년 메모리 이익 확대를 직접 반영",
-        "source": "https://markets.hankyung.com/stock/091160"
+        "thesis": "메모리 양강에 한미반도체·주성엔지니어링 등 장비주까지 담아 반도체 이익 확대를 반영",
+        "source": "https://www.funetf.co.kr/product/etf/view/KR7091160002"
       },
       {
         "name": "KODEX AI반도체TOP2플러스",
@@ -64,11 +64,11 @@
       {
         "name": "NAVER",
         "ticker": "035420",
-        "metricLabel": "2027E 영업이익(IBK투자증권)",
-        "metricValue": "2.43조원",
+        "metricLabel": "2027E 영업이익(KB·IBK·DB증권 범위)",
+        "metricValue": "2.19~2.37조원",
         "upside": null,
-        "thesis": "3Q26 이익은 부진했지만 약 2조원 규모 AI 팩토리 계약이 2027년부터 실적에 반영 예상",
-        "source": "https://www.g-enews.com/article/Securities/2026/11/20261113095642369044093b5d4e_1"
+        "thesis": "3Q26 이익이 컨센서스를 밑돌아 추정치는 낮아졌지만 2027년 AI 팩토리 매출로 반등 전망",
+        "source": "https://www.fnnews.com/news/202611130838466256"
       },
       {
         "name": "크래프톤",
@@ -76,28 +76,28 @@
         "metricLabel": "2027E 영업이익(IBK투자증권)",
         "metricValue": "1.31조원",
         "upside": null,
-        "thesis": "3Q26 영업이익은 35.5% 감소했으나 신작 출시로 2027년 이익 반등이 기대됨",
+        "thesis": "3Q26 영업이익은 35.5% 감소했으나 신작 7종 출시로 2027년 이익 반등이 기대됨",
         "source": "https://kpenews.com/View.aspx?No=4307116"
       },
       {
         "name": "삼성에스디에스",
         "ticker": "018260",
-        "metricLabel": "목표주가 상향폭(하나증권, 24만→29만원)",
-        "metricValue": "+21%",
+        "metricLabel": "2027E 영업이익(KB증권, 컨센서스 대비 +4.5%)",
+        "metricValue": "1.13조원",
         "upside": null,
-        "thesis": "국내 AX 전환 가속과 AI 데이터센터 추가 확보 기대로 하나증권이 목표가를 상향",
-        "source": "https://core.asiae.co.kr/article/2026110915263348144"
+        "thesis": "AX 수주의 매출 전환이 내년 본격화될 것으로 보고 KB증권이 목표가를 30만원으로 상향",
+        "source": "https://www.fnnews.com/news/202611180833171617"
       }
     ],
     "etfs": [
       {
         "name": "TIGER 소프트웨어",
         "ticker": "157490",
-        "metricLabel": "편입 상위 NAVER 2027E 영업이익(IBK)",
-        "metricValue": "2.43조원",
+        "metricLabel": "편입 NAVER·카카오·삼성SDS 비중",
+        "metricValue": "23.8%·19.6%·15.5%",
         "upside": null,
-        "thesis": "국내 대표 소프트웨어 ETF로 NAVER의 AI 팩토리 이익 기여를 반영",
-        "source": "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7157490004"
+        "thesis": "NAVER·카카오·삼성SDS·크래프톤 중심으로 국내 인터넷·IT서비스 이익 회복을 반영",
+        "source": "https://www.funetf.co.kr/product/etf/view/KR7157490004"
       },
       {
         "name": "SOL 한국AI소프트웨어",
@@ -106,15 +106,15 @@
         "metricValue": "24.6%",
         "upside": null,
         "thesis": "NAVER·SK텔레콤·삼성SDS 중심으로 국내 AI 소프트웨어 수익화에 투자",
-        "source": "https://www.soletf.com/ko/fund/etf/211098?tabIndex=1"
+        "source": "https://www.hankyung.com/article/2026101405271"
       },
       {
         "name": "KODEX 게임산업",
         "ticker": "300950",
-        "metricLabel": "편입 크래프톤 2027E 영업이익(IBK)",
-        "metricValue": "1.31조원",
+        "metricLabel": "편입 크래프톤·NC 비중",
+        "metricValue": "25.8%·17.3%",
         "upside": null,
-        "thesis": "크래프톤·넥슨게임즈·엔씨소프트 등 게임사의 신작 기반 이익 회복을 담는 ETF",
+        "thesis": "크래프톤 신작과 3Q26 흑자전환한 NC 등 게임사의 이익 회복을 담는 ETF",
         "source": "https://www.funetf.co.kr/product/etf/view/KR7300950003"
       }
     ]
@@ -126,18 +126,18 @@
         "ticker": "068270",
         "metricLabel": "2027E 영업이익 증가율(메리츠)",
         "metricValue": "+26.3%",
-        "upside": "+46%",
-        "thesis": "3Q26 영업이익 5,253억으로 74% 증가, 5개 이상 증권사가 목표가를 줄상향",
+        "upside": "+45.5%",
+        "thesis": "3Q26 영업이익 5,253억으로 74% 증가, 11월에도 하나·다올 등이 목표가를 상향",
         "source": "https://www.ftoday.co.kr/news/articleView.html?idxno=369542"
       },
       {
         "name": "삼성바이오로직스",
         "ticker": "207940",
-        "metricLabel": "2027E 영업이익 증가율(7월 컨센서스)",
-        "metricValue": "+17%",
-        "upside": "+41%",
-        "thesis": "3Q26 매출·영업이익 분기 최대, 연간 매출 성장 가이던스를 20%로 상향",
-        "source": "https://m.sedaily.com/article/20104620"
+        "metricLabel": "2027E 영업이익 증가율(한국투자증권)",
+        "metricValue": "+11%",
+        "upside": null,
+        "thesis": "5공장 가동과 인수 효과로 2027년 영업이익 2.62조 전망, 한투가 목표가 195만원 유지",
+        "source": "https://www.ajunews.com/view/20261117081720877"
       },
       {
         "name": "SK바이오팜",
@@ -153,8 +153,8 @@
       {
         "name": "TIGER 바이오TOP10",
         "ticker": "364970",
-        "metricLabel": "편입 1위 셀트리온 2027E 영업이익 증가율",
-        "metricValue": "+26.3%",
+        "metricLabel": "편입 셀트리온·삼성바이오로직스 비중",
+        "metricValue": "32.3%·26.6%",
         "upside": null,
         "thesis": "셀트리온·삼성바이오로직스·알테오젠 비중이 70%대로 대형 바이오 이익 성장을 반영",
         "source": "https://www.funetf.co.kr/product/etf/view/KR7364970004"
@@ -162,20 +162,20 @@
       {
         "name": "TIGER 헬스케어",
         "ticker": "143860",
-        "metricLabel": "편입 1위 셀트리온 3Q26 영업이익 증가율",
-        "metricValue": "+74.3%",
+        "metricLabel": "편입 셀트리온·삼성바이오로직스 비중",
+        "metricValue": "27.5%·14.1%",
         "upside": null,
-        "thesis": "셀트리온 24%·삼성바이오로직스 13% 등 헬스케어 대형주 실적 개선을 담음",
+        "thesis": "셀트리온·삼성바이오로직스·알테오젠 등 헬스케어 대형주의 실적 개선을 담음",
         "source": "https://www.funetf.co.kr/product/etf/view/KR7143860005"
       },
       {
         "name": "TIGER 200 헬스케어",
         "ticker": "227540",
-        "metricLabel": "편입 1위 셀트리온 비중",
-        "metricValue": "23.3%",
+        "metricLabel": "편입 셀트리온·삼성바이오로직스 비중",
+        "metricValue": "23.9%·20.5%",
         "upside": null,
         "thesis": "코스피200 헬스케어 대형주 중심으로 바이오시밀러·CDMO 이익 확대를 반영",
-        "source": "https://goinsider.kr/en/etf/227540"
+        "source": "https://www.funetf.co.kr/product/etf/view/KR7227540002"
       }
     ]
   },
@@ -213,26 +213,26 @@
       {
         "name": "TIGER 은행고배당플러스TOP10",
         "ticker": "466940",
-        "metricLabel": "편입 상위 KB금융 3Q26 순이익",
-        "metricValue": "1.91조원",
+        "metricLabel": "편입 하나·우리·KB금융 비중",
+        "metricValue": "17.1%·16.7%·16.0%",
         "upside": null,
-        "thesis": "하나·우리·KB금융을 각 16% 안팎 담아 금융지주 이익·배당 확대를 반영",
+        "thesis": "하나·우리·KB금융을 각 16~17% 담아 금융지주 이익·배당 확대를 반영",
         "source": "https://www.funetf.co.kr/product/etf/view/KR7466940004"
       },
       {
         "name": "KODEX 은행",
         "ticker": "091170",
-        "metricLabel": "편입 상위 하나금융 3Q26E 순이익 증가율",
-        "metricValue": "+14.9%",
+        "metricLabel": "편입 하나·KB·우리금융 비중",
+        "metricValue": "20.8%·19.7%·19.6%",
         "upside": null,
-        "thesis": "신한·하나·KB금융 중심으로 은행 이익 개선과 주주환원 확대를 담는 원조 은행 ETF",
+        "thesis": "하나·KB·우리·신한 중심으로 은행 이익 개선과 주주환원 확대를 담는 원조 은행 ETF",
         "source": "https://www.funetf.co.kr/product/etf/view/KR7091170001"
       },
       {
         "name": "TIGER 200 금융",
         "ticker": "139270",
         "metricLabel": "편입 상위 KB금융·신한지주·하나금융 비중",
-        "metricValue": "19.7%·14.9%·12.8%",
+        "metricValue": "19.6%·14.5%·12.8%",
         "upside": null,
         "thesis": "KB·신한·하나·우리금융과 삼성생명 등 코스피200 금융 대형주의 이익·주주환원 확대를 반영",
         "source": "https://www.funetf.co.kr/product/etf/view/KR7139270003"
@@ -273,11 +273,11 @@
       {
         "name": "SOL 조선TOP3플러스",
         "ticker": "466920",
-        "metricLabel": "편입 HD현대중공업 3Q26 영업이익 증가율",
-        "metricValue": "+61.4%",
+        "metricLabel": "편입 HD현대중공업·삼성중공업·한화오션 비중",
+        "metricValue": "25.5%·25.1%·23.8%",
         "upside": null,
         "thesis": "조선 3사 집중 ETF로 고선가 물량 매출 인식에 따른 이익 개선을 반영",
-        "source": "https://dealsite.co.kr/articles/172011"
+        "source": "https://www.funetf.co.kr/product/etf/view/KR7466920006"
       },
       {
         "name": "TIGER 조선TOP10",
@@ -292,7 +292,7 @@
         "name": "PLUS K방산",
         "ticker": "449450",
         "metricLabel": "편입 1위 한화에어로스페이스 비중",
-        "metricValue": "23.5%",
+        "metricValue": "23.8%",
         "upside": null,
         "thesis": "한화에어로·KAI·한화오션·현대로템 중심, 3Q 지연된 수출 납품이 4분기로 이연돼 이익 회복 기대",
         "source": "https://www.funetf.co.kr/product/etf/view/KR7449450006"
@@ -313,11 +313,11 @@
       {
         "name": "삼성SDI",
         "ticker": "006400",
-        "metricLabel": "2027E 영업이익(신한, 추정치 6.3% 상향)",
-        "metricValue": "1.72조원",
+        "metricLabel": "2027E 영업이익(교보증권, 2026E 5,580억원)",
+        "metricValue": "1.13조원",
         "upside": null,
-        "thesis": "ESS가 내년 이익의 80% 이상을 차지하며 흑자 전환, 목표가 62만→74만원 상향",
-        "source": "https://www.businesspost.co.kr/BP?command=article_view&num=449264"
+        "thesis": "북미 ESS 신규 수주 60GWh 이상과 미국 생산 본격화로 내년 영업이익이 두 배로 늘 전망",
+        "source": "https://www.ajunews.com/view/20261120081426815"
       },
       {
         "name": "S-Oil",
@@ -333,17 +333,17 @@
       {
         "name": "KODEX 2차전지산업",
         "ticker": "305720",
-        "metricLabel": "편입 LG에너지솔루션 2027E 영업이익 증가율",
-        "metricValue": "+279%",
+        "metricLabel": "편입 LG에너지솔루션·삼성SDI 비중",
+        "metricValue": "21.4%·14.8%",
         "upside": null,
-        "thesis": "국내 2차전지 ETF 중 순자산 최대급으로 ESS 주도 배터리 이익 회복을 반영",
-        "source": "https://biz.heraldcorp.com/article/10897668"
+        "thesis": "순자산 1.5조원으로 국내 2차전지 ETF 중 최대급, ESS 주도 배터리 이익 회복을 반영",
+        "source": "https://www.funetf.co.kr/product/etf/view/KR7305720005"
       },
       {
         "name": "TIGER 2차전지TOP10",
         "ticker": "364980",
-        "metricLabel": "편입 삼성SDI 2027E 영업이익(신한)",
-        "metricValue": "1.72조원",
+        "metricLabel": "편입 LG엔솔·삼성SDI·POSCO홀딩스 비중",
+        "metricValue": "26.2%·24.7%·24.3%",
         "upside": null,
         "thesis": "배터리·소재 상위 10종목에 집중 투자해 ESS 수요 확대 수혜를 담음",
         "source": "https://www.funetf.co.kr/product/etf/view/KR7364980003"
@@ -351,8 +351,8 @@
       {
         "name": "TIGER 2차전지테마",
         "ticker": "305540",
-        "metricLabel": "편입 LG에너지솔루션·삼성SDI 합산 비중",
-        "metricValue": "31.2%",
+        "metricLabel": "편입 LG에너지솔루션·삼성SDI 비중",
+        "metricValue": "15.4%·15.3%",
         "upside": null,
         "thesis": "POSCO홀딩스·LG엔솔·삼성SDI 등 밸류체인 분산, ESS 주도 배터리 이익 회복을 반영",
         "source": "https://www.funetf.co.kr/product/etf/view/KR7305540007"
